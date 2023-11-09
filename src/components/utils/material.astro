@@ -1,0 +1,33 @@
+---
+type Credit = {
+  name: string;
+  link?: string;
+}
+
+type FigureInfo = {
+  artist: Credit;
+  mediaType: string;
+  from: Credit;
+}
+
+type Props = Partial<FigureInfo>
+
+const { 
+  artist = {
+    name: "",
+    link: "#"
+  },
+  mediaType = "Image", 
+  from = {
+    name: "Pixabay",
+    link:"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2982270"
+  }
+} = Astro.props;
+---
+
+<figure class="relative">
+  <slot />
+  <figcaption class="w-full absolute left-0 bottom-0 p-2 bg-black/50 text-sm">
+    {mediaType} by <a class="no-underline" href={artist.link}>{artist.name}</a> from <a class="no-underline" href={from.link}>{from.name}</a>
+  </figcaption>
+</figure>

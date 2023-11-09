@@ -1,0 +1,36 @@
+---
+title: Let's make a website!
+description: モダンな技術を採用したWebサイト開発
+template: splash
+hero:
+  tagline: Webサイトの作成過程をみていこう
+  image:
+    file: ../../assets/home/houston.webp
+  actions:
+    - text: ご案内へ進む
+      link: /started/greeting/
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="作成するページを決める" icon="approve-check">
+		必要なページはどれくらいだろう？
+	</Card>
+	<Card title="各ページのコンテンツの配置を決める" icon="puzzle">
+		どんなレイアウトがいいのだろう？
+	</Card>
+	<Card title="使用する色を決める" icon="pencil">
+		何色をメインにしたらいいだろう？
+	</Card>
+	<Card title="フォントやアニメーションを決める" icon="setting">
+		仕上げにちょっと楽しくアレンジしよう！
+	</Card>
+	<Card title="公開しよう" icon="rocket">
+		完成したWebサイトをみんなに見てもらおう！
+	</Card>
+</CardGrid>
