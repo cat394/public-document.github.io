@@ -32,17 +32,21 @@ export default defineConfig({
 							items: [
 								{
 									label: 'あいさつ',
-									link: '/started/greeting/'
+									link: '/started/greeting/',
 								},
 								{
 									label: '使用する技術',
-									link: '/started/tech-stucks/'
-								}
-							]
+									link: '/started/tech-stucks/',
+								},
+							],
 						},
 						{
 							label: 'Webサイトを作成する',
 							items: [
+								{
+									label: 'はじめに',
+									link: '/guides/create-website/beginning/',
+								},
 								{
 									label: '1. 目的とターゲットの設定',
 									link: '/guides/create-website/find-target/',
@@ -77,8 +81,16 @@ export default defineConfig({
 							label: 'Webサイトを公開する',
 							items: [
 								{
-									label: 'Netlify',
+									label: 'はじめに',
+									link: '/guides/deploy/beginning/',
+								},
+								{
+									label: 'Netlifyを使用する',
 									link: '/guides/deploy/netlify/',
+								},
+								{
+									label: 'ドメインを購入する',
+									link: '/guides/deploy/domain/',
 								},
 							],
 						},
