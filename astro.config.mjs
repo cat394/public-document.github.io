@@ -85,7 +85,7 @@ export default defineConfig({
 									link: '/guides/deploy/beginning/',
 								},
 								{
-									label: 'Netlifyを使用する',
+									label: 'Netlifyを使う',
 									link: '/guides/deploy/netlify/',
 								},
 								{
@@ -93,15 +93,6 @@ export default defineConfig({
 									link: '/guides/deploy/domain/',
 								},
 							],
-						},
-					],
-				},
-				{
-					label: 'よくある質問',
-					items: [
-						{
-							label: 'FAQ',
-							link: '/faq/question-and-answer/',
 						},
 					],
 				},
