@@ -94,8 +94,26 @@ export default defineConfig({
 								},
 							],
 						},
+						{
+							label: '終わりに',
+							items: [
+								{
+									label: '締めくくり',
+									link: '/ended/concluded/'
+								}
+							]
+						}
 					],
 				},
+				{
+					label: 'エクストラ',
+					items: [
+						{
+							label: 'お問い合わせフォームを設定する',
+							link: '/extra/contact/'
+						}
+					]
+				}
 			],
 		}),
 		tailwind({
