@@ -64,6 +64,10 @@ export default defineConfig({
 									link: '/guides/create-website/decide-layout/',
 								},
 								{
+									label: '4.5 デザインとは',
+									link: '/guides/create-website/what-is-design'
+								},
+								{
 									label: '5. 色を決める',
 									link: '/guides/create-website/decide-color/',
 								},
