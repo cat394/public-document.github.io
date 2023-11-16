@@ -48,6 +48,14 @@ export default defineConfig({
 									link: '/guides/create-website/beginning/',
 								},
 								{
+									label: 'デザインとは',
+									link: '/guides/create-website/what-is-design'
+								},
+								{
+									label: '各手順の概要',
+									link: '/guides/create-website/overview'
+								},
+								{
 									label: '1. 目的とターゲットの設定',
 									link: '/guides/create-website/find-target/',
 								},
@@ -59,25 +67,21 @@ export default defineConfig({
 									label: '3. コンテンツを計画する',
 									link: '/guides/create-website/plan-content/',
 								},
-								{
-									label: '4. デザインとは',
-									link: '/guides/create-website/what-is-design'
-								},
 
 								{
-									label: '5. レイアウトを決める',
+									label: '4. レイアウトを決める',
 									link: '/guides/create-website/decide-layout/',
 								},
 								{
-									label: '6. 色を決める',
+									label: '5. 色を決める',
 									link: '/guides/create-website/decide-color/',
 								},
 								{
-									label: '7. フォントを決める',
+									label: '6. フォントを決める',
 									link: '/guides/create-website/decide-fonts/',
 								},
 								{
-									label: '8. 仕上げ',
+									label: '7. 仕上げ',
 									link: '/guides/create-website/do-finishing-touches/',
 								},
 							],
