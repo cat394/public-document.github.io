@@ -60,23 +60,24 @@ export default defineConfig({
 									link: '/guides/create-website/plan-content/',
 								},
 								{
-									label: '4. レイアウトを決める',
+									label: '4. デザインとは',
+									link: '/guides/create-website/what-is-design'
+								},
+
+								{
+									label: '5. レイアウトを決める',
 									link: '/guides/create-website/decide-layout/',
 								},
 								{
-									label: '4.5 デザインとは',
-									link: '/guides/create-website/what-is-design'
-								},
-								{
-									label: '5. 色を決める',
+									label: '6. 色を決める',
 									link: '/guides/create-website/decide-color/',
 								},
 								{
-									label: '6. フォントを決める',
+									label: '7. フォントを決める',
 									link: '/guides/create-website/decide-fonts/',
 								},
 								{
-									label: '7. 仕上げ',
+									label: '8. 仕上げ',
 									link: '/guides/create-website/do-finishing-touches/',
 								},
 							],
