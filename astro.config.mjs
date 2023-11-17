@@ -8,9 +8,9 @@ export default defineConfig({
 	site: 'https://cat394.github.io',
 	integrations: [
 		starlight({
-			title: "Ryo's Doc",
+			title: "Guide Doc",
 			logo: {
-				src: './src/assets/my-logo.webp',
+				src: './src/assets/favicon.svg',
 			},
 			customCss: ['./src/app.css'],
 			locales: {
