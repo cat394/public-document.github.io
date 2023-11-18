@@ -10,7 +10,7 @@ export default defineConfig({
 		starlight({
 			title: "Guide Doc",
 			logo: {
-				src: './src/assets/favicon.svg',
+				src: './src/assets/logo.png',
 			},
 			customCss: ['./src/app.css'],
 			locales: {
