@@ -22,8 +22,8 @@
 }
 
 /* リストタイトルを改行する */
-ul > li > p > strong,
-ol > li > p > strong {
+ul > li > p > strong:first-child,
+ol > li > p > strong:first-child {
   display: block;
 }
 
