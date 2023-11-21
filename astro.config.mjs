@@ -118,7 +118,7 @@ export default defineConfig({
 					label: 'エクストラ',
 					items: [
 						{
-							label: 'お問い合わせフォームを設定する',
+							label: 'お問い合わせフォームの設定',
 							link: '/extra/contact/'
 						}
 					]
